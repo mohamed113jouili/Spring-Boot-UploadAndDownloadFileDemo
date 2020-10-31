@@ -9,7 +9,7 @@
  ##  com.file.dao : includes FileRepository.java and  FileU.java 
  ##  com.file.service : includes FileService.java and  FileServiceImp.java
  ##  com.file.web : includes  FileRestService.java
- ##  com.file.web.exeception : contient AppExceptionHandeller.java,FileStorageException.java
+ ##  com.file.web.exeception : includes  AppExceptionHandeller.java,FileStorageException.java
  
  ![project](https://user-images.githubusercontent.com/61349826/97783082-98a59e80-1b95-11eb-8e8f-100a95b98b49.png)
 
