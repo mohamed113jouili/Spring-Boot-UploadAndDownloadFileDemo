@@ -53,7 +53,10 @@ spring.servlet.multipart.resolve-lazily=true
 
 ![download](https://user-images.githubusercontent.com/61349826/97783156-2aada700-1b96-11eb-87b8-78ec67e5e612.png)
 
- 
+## Test Download  file in server :error download because  file does not exist 
+
+ ![errorDownload](https://user-images.githubusercontent.com/61349826/97783671-9cd3bb00-1b99-11eb-9f53-b16283e07fa4.png)
+
  
 
  
