@@ -21,11 +21,17 @@
  
  add in application.properties this ligne code 
  
+# Enable multipart uploads
 spring.servlet.multipart.enabled=true
+# Threshold after which files are written to disk.
 spring.servlet.multipart.file-size-threshold=2KB
+# Max file size.
 spring.servlet.multipart.max-file-size=100MB
+# Max Request Size
 spring.servlet.multipart.max-request-size=215MB
+# enable request with large body 
 spring.server.tomcat.max-swallow-size = -1 
+# enable MaxUploadSizeExceededException with ExceptionHandler 
 spring.servlet.multipart.resolve-lazily=true
  
  
