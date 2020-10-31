@@ -1,19 +1,19 @@
-# UploadAndDownloadFileDemo
+# 1-Discription UploadAndDownloadFileDemo Project 
 
- Spring Boot Upload/Download File to/from Database example
+ Spring Boot 2.2.2.RELEASE  Upload/Download File to/from Database 
 
  tutorial how to upload and download files to/from database with a Spring Boot Rest APIs
  
  description of the project layer
  
- ## 1- com.file.dao : includes FileRepository.java and  FileU.java 
- ## 2- com.file.service : includes FileService.java and  FileServiceImp.java
- ## 3- com.file.web : includes  FileRestService.java
- ## 3.1- com.file.web.exeception : contient AppExceptionHandeller.java,FileStorageException.java
+ ##  com.file.dao : includes FileRepository.java and  FileU.java 
+ ##  com.file.service : includes FileService.java and  FileServiceImp.java
+ ##  com.file.web : includes  FileRestService.java
+ ##  com.file.web.exeception : contient AppExceptionHandeller.java,FileStorageException.java
  
  ![project](https://user-images.githubusercontent.com/61349826/97783082-98a59e80-1b95-11eb-8e8f-100a95b98b49.png)
 
- # Configuration
+ # 2- Configuration
  
  we need to change  path  in FileServiceImp , uploadDir="/Users/mac/Desktop/upload" to  uploadDir=".../..." 
  
@@ -35,7 +35,7 @@ spring.server.tomcat.max-swallow-size = -1
 spring.servlet.multipart.resolve-lazily=true
  
  
- # Test Postmean 
+ # 3-Test Postmean 
 
 ### Test  Upload file in server :success upload
 
