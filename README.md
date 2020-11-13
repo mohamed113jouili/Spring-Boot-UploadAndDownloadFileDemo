@@ -37,23 +37,23 @@ spring.servlet.multipart.resolve-lazily=true
  
  # 3-Test Postmean 
 
-### Test  Upload file in server :success upload
+### Test  Upload file from server :success upload
 
 ![success](https://user-images.githubusercontent.com/61349826/97783084-9e02e900-1b95-11eb-94ca-41993e557445.png)
 
-### Test  Upload file in server :error upload because file is null
+### Test  Upload file from server :error upload because file is null
 
 ![error](https://user-images.githubusercontent.com/61349826/97783088-a22f0680-1b95-11eb-97f9-45a75414f959.png)
 
-## Test  Upload file in server (error upload because large  size file )
+## Test  Upload file from server (error upload because large  size file )
 
 ![EroorSize](https://user-images.githubusercontent.com/61349826/97783093-a824e780-1b95-11eb-832d-8105a7bc0f16.png)
 
-## Test Download  file in server :success Downloads file
+## Test Download  file from server :success Downloads file
 
 ![download](https://user-images.githubusercontent.com/61349826/97783156-2aada700-1b96-11eb-87b8-78ec67e5e612.png)
 
-## Test Download  file in server :error download because  file does not exist 
+## Test Download  file from server :error download because  file does not exist 
 
  ![errorDownload](https://user-images.githubusercontent.com/61349826/97783671-9cd3bb00-1b99-11eb-9f53-b16283e07fa4.png)
 
